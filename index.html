@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yuan Evangelista — Junior Web Developer</title>
+<meta name="description" content="Junior Web Developer specializing in CMS platforms, hosting, and domain management. Portfolio of web projects built with WordPress, PHP, and MySQL.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== PARTICLE NETWORK BACKGROUND ===== -->
+<canvas id="particle-bg" class="particle-bg" aria-hidden="true"></canvas>
+
+<!-- ===== NAV ===== -->
+<header class="nav">
+  <div class="nav-inner">
+    <a href="#top" class="nav-logo">M<span class="accent-dot">.</span></a>
+    <nav class="nav-links">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-status">
+      <span class="ping"></span>
+      <span class="status-text">available for work</span>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <nav class="nav-mobile" id="navMobile">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main id="top">
+
+  <!-- ===== HERO ===== -->
+  <section class="hero">
+    <div class="hero-inner">
+      <p class="eyebrow">// junior-web-developer</p>
+      <h1 class="hero-title">Hi, I'm Yuan.<br>I build and maintain <span class="accent">web infrastructure</span> that just works.</h1>
+      <p class="hero-sub">Junior Web Developer based in Philippines. I handle everything from CMS builds and theme configuration to hosting, DNS, and deployment — the parts of the web that keep sites actually running.</p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="assets\YuanMigelEvangelista_JuniorWebDeveloper.pdf" class="btn btn-outline" download>Download Résumé</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="about reveal" id="about">
+    <div class="section-head">
+      <p class="tag">01 — about</p>
+      <h2>Background</h2>
+    </div>
+    <div class="about-grid">
+      <div class="about-photo">
+        <!-- Replace this div's content with <img src="assets/profile.jpg" alt="Michael"> when you have a photo -->
+        <div class="photo-placeholder" aria-hidden="true">M</div>
+      </div>
+      <div class="about-text">
+        <p>I'm a Junior Web Developer with hands-on experience managing and maintaining websites across WordPress, Wix, Squarespace, and GoDaddy platforms. My work covers the full lifecycle of a site: content updates, theme and plugin configuration, hosting administration, DNS setup, and troubleshooting when things go wrong.</p>
+        <p>I graduated with a Bachelor of Science in Information Technology from Zamboanga Peninsula Polytechnic State University (2021–2025), and I've since worked as a Junior Web Developer at RightJob Solutions, where I manage client sites and infrastructure across CMS platforms and hosting environments.</p>
+        <p>Alongside CMS work, I build things from scratch with PHP, MySQL, HTML, and CSS — including a full library management system as a personal project.</p>
+        <div class="quick-facts">
+          <div class="fact"><span class="fact-label">Location</span><span class="fact-value">Zamboanga City, PH</span></div>
+          <div class="fact"><span class="fact-label">Languages</span><span class="fact-value">English, Filipino, Chavacano</span></div>
+          <div class="fact"><span class="fact-label">Education</span><span class="fact-value">BS Information Technology, ZPPSU</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section class="skills reveal" id="skills">
+    <div class="section-head">
+      <p class="tag">02 — skills</p>
+      <h2>Toolbox</h2>
+    </div>
+    <div class="skills-grid">
+
+      <div class="skill-panel">
+        <div class="panel-head"><span class="panel-dot"></span><span>cms-platforms</span></div>
+        <ul>
+          <li>WordPress</li>
+          <li>Elementor</li>
+          <li>Wix Studio</li>
+          <li>Squarespace</li>
+          <li>GoDaddy Website Builder</li>
+        </ul>
+      </div>
+
+      <div class="skill-panel">
+        <div class="panel-head"><span class="panel-dot"></span><span>hosting-and-domains</span></div>
+        <ul>
+          <li>WP Engine</li>
+          <li>FastComet</li>
+          <li>DNS Configuration (A, CNAME, TXT)</li>
+          <li>Domain Management</li>
+        </ul>
+      </div>
+
+      <div class="skill-panel">
+        <div class="panel-head"><span class="panel-dot"></span><span>web-technologies</span></div>
+        <ul>
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>PHP</li>
+          <li>MySQL</li>
+        </ul>
+      </div>
+
+      <div class="skill-panel">
+        <div class="panel-head"><span class="panel-dot"></span><span>tools</span></div>
+        <ul>
+          <li>Git &amp; GitHub</li>
+          <li>Canva</li>
+          <li>Photoshop</li>
+          <li>DaVinci Resolve</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section class="projects reveal" id="projects">
+    <div class="section-head">
+      <p class="tag">03 — projects</p>
+      <h2>Selected Work</h2>
+    </div>
+
+    <div class="project-list">
+
+      <article class="project-card">
+        <div class="project-status">
+          <span class="ping"></span><span>lead developer</span>
+          <span class="stack-tags">
+            <span class="stack-tag">PHP</span><span class="stack-tag">MySQL</span><span class="stack-tag">HTML</span><span class="stack-tag">CSS</span>
+          </span>
+        </div>
+        <h3>Library Management System</h3>
+        <p>A full library management system built from scratch as a personal project. Handles barcode-based book entry, inventory tracking, and a dashboard for monitoring records and updates in real time.</p>
+        <div class="project-links">
+          <!-- Add your real links below -->
+          <a href="#" class="project-link">View Code →</a>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-status">
+          <span class="ping"></span><span>developer · employer project</span>
+          <span class="stack-tags">
+            <span class="stack-tag">WordPress</span><span class="stack-tag">Hosting</span><span class="stack-tag">DNS</span>
+          </span>
+        </div>
+        <h3>Discover Zamboanga</h3>
+        <p>Internal web project built for RightJob Solutions, not a personal project — set up the WordPress and WP Engine environment, configured FastComet hosting and DNS records, and handled homepage development and category management before handing it off. No public link available since it's employer-owned.</p>
+        <div class="project-links">
+          <span class="project-note">No public link — employer-owned project</span>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-status">
+          <span class="ping"></span><span>ui/ux contributor</span>
+          <span class="stack-tags">
+            <span class="stack-tag">Capstone</span>
+          </span>
+        </div>
+        <h3>ZPPSU E-Marketplace</h3>
+        <p>Capstone project built with a development team. Contributed UI/UX feedback on layout, spacing, and dark mode improvements, and took part in testing and quality review prior to launch.</p>
+        <div class="project-links">
+          <a href="#" class="project-link">View Code →</a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="contact reveal" id="contact">
+    <div class="section-head">
+      <p class="tag">04 — contact</p>
+      <h2>Let's talk</h2>
+    </div>
+    <p class="contact-sub">Looking for a Junior Web Developer for CMS work, site maintenance, or hosting setup? I'd love to hear from you.</p>
+    <div class="contact-links">
+      <a href="mailto:xxxxxxx@gmail.com" class="contact-item">
+        <span class="contact-label">Email</span>
+        <span class="contact-value">xxxxxxx@gmail.com</span>
+      </a>
+      <a href="https://github.com/Mikeeeeyyyy" target="_blank" rel="noopener" class="contact-item">
+        <span class="contact-label">GitHub</span>
+        <span class="contact-value">github.com/Mikeeeeyyyy</span>
+      </a>
+      <a href="#" class="contact-item">
+        <!-- Paste your LinkedIn URL in the href above -->
+        <span class="contact-label">LinkedIn</span>
+        <span class="contact-value">Add your LinkedIn URL here</span>
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>Built by Michael · Deployed via GitHub Pages · <span id="year"></span></p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
