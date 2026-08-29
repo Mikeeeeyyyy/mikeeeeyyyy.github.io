@@ -343,6 +343,13 @@ section {
   color: var(--text-muted);
 }
 
+.profile-photo {
+  width: 140px;
+  height: 140px;
+  border-radius: 16px;
+  object-fit: cover;
+}
+
 .about-text p {
   color: var(--text-muted);
   margin-bottom: 16px;
