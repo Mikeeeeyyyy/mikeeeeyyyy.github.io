@@ -349,6 +349,8 @@ section {
   border-radius: 16px;
   object-fit: cover;
   object-position: top center;
+  border: 2px solid var(--border);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
 }
 
 .about-text p {
